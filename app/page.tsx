@@ -26,9 +26,19 @@ export default function Home() {
           <WhyChooseUs />
         </div>
       </div>
-      <Testimonials />
-      <CallToAction />
-      <Footer />
+      <div>
+        <Testimonials />
+      </div>
+
+      <div className="sm:px-16 px-6 xl:max-w-[1280px] w-full bg-gradient-rust-earthy">
+        <CallToAction />
+      </div>
+
+      <div className="bg-dark-grey overflow-hidden w-full">
+        <div className="sm:px-16 px-6 xl:max-w-[1280px] w-full">
+        <Footer />
+        </div>
+      </div>
     </>
   );
 }

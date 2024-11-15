@@ -15,6 +15,11 @@ export default {
         'earthy-orange': '#C7622F',
         'dark-grey': '#393A47'
       },
+
+      backgroundImage: {
+        testimonialsImage: "url('/assets/potential-hero-image.jpg')",
+        'gradient-rust-earthy': 'linear-gradient(90deg, #D97706 0%, #C7622F 100%)',
+      },
     },
   },
   plugins: [],
